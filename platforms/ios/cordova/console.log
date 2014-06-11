@@ -1,0 +1,178 @@
+2014-05-28 21:42:17.062 HelloCordova[1178:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-28 21:42:17.089 HelloCordova[1178:70b] Unlimited access to network resources
+2014-05-28 21:42:17.236 HelloCordova[1178:70b] [CDVTimer][keyboard] 0.081003ms
+2014-05-28 21:42:17.236 HelloCordova[1178:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-28 21:42:17.236 HelloCordova[1178:70b] [CDVTimer][statusbar] 0.371993ms
+2014-05-28 21:42:17.237 HelloCordova[1178:70b] [CDVTimer][TotalPluginStartup] 1.273036ms
+2014-05-28 21:42:17.381 HelloCordova[1178:70b] Resetting plugins due to page load.
+2014-05-28 21:42:17.578 HelloCordova[1178:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-05-28 22:34:41.975 HelloCordova[1453:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-28 22:34:41.982 HelloCordova[1453:70b] Unlimited access to network resources
+2014-05-28 22:34:41.999 HelloCordova[1453:70b] [CDVTimer][keyboard] 0.056982ms
+2014-05-28 22:34:41.999 HelloCordova[1453:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-28 22:34:42.000 HelloCordova[1453:70b] [CDVTimer][statusbar] 0.331998ms
+2014-05-28 22:34:42.000 HelloCordova[1453:70b] [CDVTimer][TotalPluginStartup] 1.152992ms
+2014-05-28 22:34:42.037 HelloCordova[1453:70b] Resetting plugins due to page load.
+2014-05-28 22:34:42.138 HelloCordova[1453:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+Terminating in response to SpringBoard's termination.
+2014-05-29 20:20:13.843 HelloCordova[2250:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-29 20:20:13.895 HelloCordova[2250:70b] Unlimited access to network resources
+2014-05-29 20:20:14.034 HelloCordova[2250:70b] [CDVTimer][keyboard] 0.095010ms
+2014-05-29 20:20:14.034 HelloCordova[2250:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-29 20:20:14.035 HelloCordova[2250:70b] [CDVTimer][statusbar] 0.462055ms
+2014-05-29 20:20:14.035 HelloCordova[2250:70b] [CDVTimer][TotalPluginStartup] 1.514018ms
+2014-05-29 20:20:14.201 HelloCordova[2250:70b] Resetting plugins due to page load.
+2014-05-29 20:20:14.771 HelloCordova[2250:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-05-30 22:30:33.147 HelloCordova[4229:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-30 22:30:33.235 HelloCordova[4229:70b] Unlimited access to network resources
+2014-05-30 22:30:33.485 HelloCordova[4229:70b] [CDVTimer][keyboard] 0.093997ms
+2014-05-30 22:30:33.486 HelloCordova[4229:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-30 22:30:33.487 HelloCordova[4229:70b] [CDVTimer][statusbar] 0.715971ms
+2014-05-30 22:30:33.487 HelloCordova[4229:70b] [CDVTimer][TotalPluginStartup] 1.980960ms
+2014-05-30 22:30:33.746 HelloCordova[4229:70b] Resetting plugins due to page load.
+2014-05-30 22:30:34.220 HelloCordova[4229:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-05-30 22:30:34.408 HelloCordova[4229:70b] setting movie path: 
+2014-05-30 22:30:34.529 HelloCordova[4229:70b] setting movie path: 
+2014-05-30 22:30:34.735 HelloCordova[4229:70b] THREAD WARNING: ['Device'] took '11.688965' ms. Plugin should use a background thread.
+2014-05-30 22:31:03.904 HelloCordova[4229:70b] {"title":"Hot","id":2,"$$hashKey":"00F"}
+2014-05-30 22:31:08.192 HelloCordova[4229:70b] {"title":"Hot","id":2,"$$hashKey":"00F"}
+2014-05-30 22:31:11.221 HelloCordova[4229:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Who_Says-Selena_Gomez-_Megan_Nicole_and_Tiffany_Alvord_cover_-zg9xS87wgU.mp3
+2014-05-30 22:31:11.238 HelloCordova[4229:70b] setting movie path: 
+2014-05-30 22:31:11.240 HelloCordova[4229:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Who_Says-Selena_Gomez-_Megan_Nicole_and_Tiffany_Alvord_cover_-zg9xS87wgU.mp3
+2014-05-30 22:31:11.467 HelloCordova[4229:5d17] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-05-30 22:37:37.308 HelloCordova[4229:70b] {"title":"Hot","id":2,"$$hashKey":"00F"}
+2014-05-30 22:37:40.227 HelloCordova[4229:70b] {"title":"Latest","id":1,"$$hashKey":"00E"}
+2014-05-30 22:43:16.090 HelloCordova[4418:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-30 22:43:16.097 HelloCordova[4418:70b] Unlimited access to network resources
+2014-05-30 22:43:16.115 HelloCordova[4418:70b] [CDVTimer][keyboard] 0.070989ms
+2014-05-30 22:43:16.115 HelloCordova[4418:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-30 22:43:16.116 HelloCordova[4418:70b] [CDVTimer][statusbar] 0.432014ms
+2014-05-30 22:43:16.116 HelloCordova[4418:70b] [CDVTimer][TotalPluginStartup] 1.451969ms
+2014-05-30 22:43:16.208 HelloCordova[4418:70b] Resetting plugins due to page load.
+2014-05-30 22:43:16.305 HelloCordova[4418:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-05-30 22:43:16.349 HelloCordova[4418:70b] setting movie path: 
+2014-05-30 22:43:16.390 HelloCordova[4418:70b] setting movie path: 
+May 30 22:44:07 kelvinhos-MacBook-Pro.local HelloCordova[4418] <Error>: CGImageCreate: invalid image size: 0 x 0.
+May 30 22:44:07 kelvinhos-MacBook-Pro.local HelloCordova[4418] <Error>: CGImageCreate: invalid image size: 0 x 0.
+2014-05-30 22:44:11.671 HelloCordova[4418:70b] {"title":"Hot","id":2,"$$hashKey":"00F"}
+2014-05-30 22:44:12.878 HelloCordova[4418:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Who_Says-Selena_Gomez-_Megan_Nicole_and_Tiffany_Alvord_cover_-zg9xS87wgU.mp3
+2014-05-30 22:44:12.883 HelloCordova[4418:70b] setting movie path: 
+2014-05-30 22:44:12.884 HelloCordova[4418:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Who_Says-Selena_Gomez-_Megan_Nicole_and_Tiffany_Alvord_cover_-zg9xS87wgU.mp3
+2014-05-30 22:44:13.110 HelloCordova[4418:8d23] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-05-30 22:45:17.552 HelloCordova[4598:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-30 22:45:17.559 HelloCordova[4598:70b] Unlimited access to network resources
+2014-05-30 22:45:17.573 HelloCordova[4598:70b] [CDVTimer][keyboard] 0.055015ms
+2014-05-30 22:45:17.574 HelloCordova[4598:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-30 22:45:17.574 HelloCordova[4598:70b] [CDVTimer][statusbar] 0.406981ms
+2014-05-30 22:45:17.574 HelloCordova[4598:70b] [CDVTimer][TotalPluginStartup] 1.258969ms
+2014-05-30 22:45:17.609 HelloCordova[4598:70b] Resetting plugins due to page load.
+2014-05-30 22:45:17.706 HelloCordova[4598:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-05-30 22:45:17.745 HelloCordova[4598:70b] setting movie path: 
+2014-05-30 22:45:17.788 HelloCordova[4598:70b] setting movie path: 
+May 30 22:45:21 kelvinhos-MacBook-Pro.local HelloCordova[4598] <Error>: CGImageCreate: invalid image size: 0 x 0.
+May 30 22:45:21 kelvinhos-MacBook-Pro.local HelloCordova[4598] <Error>: CGImageCreate: invalid image size: 0 x 0.
+2014-05-30 22:45:28.160 HelloCordova[4598:70b] {"title":"Latest","id":1,"$$hashKey":"00E"}
+2014-05-30 22:45:30.586 HelloCordova[4598:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=_2014-05-24_-__X4NiqSldop8.mp3
+2014-05-30 22:45:30.589 HelloCordova[4598:70b] setting movie path: 
+2014-05-30 22:45:30.591 HelloCordova[4598:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=_2014-05-24_-__X4NiqSldop8.mp3
+2014-05-30 22:45:30.803 HelloCordova[4598:1203] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-05-30 22:51:10.095 HelloCordova[4770:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-30 22:51:10.102 HelloCordova[4770:70b] Unlimited access to network resources
+2014-05-30 22:51:10.118 HelloCordova[4770:70b] [CDVTimer][keyboard] 0.082970ms
+2014-05-30 22:51:10.119 HelloCordova[4770:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-30 22:51:10.119 HelloCordova[4770:70b] [CDVTimer][statusbar] 0.430048ms
+2014-05-30 22:51:10.120 HelloCordova[4770:70b] [CDVTimer][TotalPluginStartup] 1.348972ms
+2014-05-30 22:51:10.155 HelloCordova[4770:70b] Resetting plugins due to page load.
+2014-05-30 22:51:10.247 HelloCordova[4770:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-05-30 22:51:10.292 HelloCordova[4770:70b] setting movie path: 
+2014-05-30 22:51:10.333 HelloCordova[4770:70b] setting movie path: 
+May 30 22:51:11 kelvinhos-MacBook-Pro.local HelloCordova[4770] <Error>: CGImageCreate: invalid image size: 0 x 0.
+May 30 22:51:11 kelvinhos-MacBook-Pro.local HelloCordova[4770] <Error>: CGImageCreate: invalid image size: 0 x 0.
+2014-05-30 22:51:13.295 HelloCordova[4770:70b] {"title":"Latest","id":1,"$$hashKey":"00E"}
+2014-05-30 22:51:14.450 HelloCordova[4770:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Best_Motivational_Speech_Music_Eagle_Edition_2014_OjOPMQ0h6wE.mp3
+2014-05-30 22:51:14.454 HelloCordova[4770:70b] setting movie path: 
+2014-05-30 22:51:14.455 HelloCordova[4770:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Best_Motivational_Speech_Music_Eagle_Edition_2014_OjOPMQ0h6wE.mp3
+2014-05-30 22:51:14.663 HelloCordova[4770:5713] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-05-30 22:51:55.170 HelloCordova[4770:70b] Received memory warning.
+2014-05-31 08:18:23.569 HelloCordova[5089:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 08:18:23.579 HelloCordova[5089:70b] Unlimited access to network resources
+2014-05-31 08:18:23.606 HelloCordova[5089:70b] [CDVTimer][keyboard] 0.087976ms
+2014-05-31 08:18:23.606 HelloCordova[5089:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-31 08:18:23.607 HelloCordova[5089:70b] [CDVTimer][statusbar] 0.495970ms
+2014-05-31 08:18:23.607 HelloCordova[5089:70b] [CDVTimer][TotalPluginStartup] 1.763999ms
+2014-05-31 08:18:23.733 HelloCordova[5089:70b] Resetting plugins due to page load.
+2014-05-31 08:18:23.927 HelloCordova[5089:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-05-31 08:18:23.998 HelloCordova[5089:70b] setting movie path: 
+2014-05-31 08:18:24.061 HelloCordova[5089:70b] setting movie path: 
+2014-05-31 08:18:44.949 HelloCordova[5089:70b] {"title":"Latest","id":1,"$$hashKey":"00E"}
+2014-05-31 08:18:47.959 HelloCordova[5089:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=_2014-05-24_-__X4NiqSldop8.mp3
+2014-05-31 08:18:47.962 HelloCordova[5089:70b] setting movie path: 
+2014-05-31 08:18:47.963 HelloCordova[5089:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=_2014-05-24_-__X4NiqSldop8.mp3
+2014-05-31 08:18:48.179 HelloCordova[5089:6b0f] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-05-31 08:18:51.912 HelloCordova[5089:70b] {"title":"Latest","id":1,"$$hashKey":"00E"}
+2014-05-31 08:18:56.889 HelloCordova[5089:70b] {"title":"Hot","id":2,"$$hashKey":"00F"}
+2014-05-31 08:28:06.954 HelloCordova[5089:70b] Took background task assertion (11) for playback stall
+2014-05-31 08:28:06.968 HelloCordova[5089:70b] setting movie path: 
+2014-05-31 08:28:07.070 HelloCordova[5089:70b] Ending background task assertion (11) for playback stall
+2014-05-31 08:28:07.490 HelloCordova[5089:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=SISTAR19_Ma_Boy_mirrored_Dance_Practice_Eng_Sub_ovVfLancwys.mp3
+2014-05-31 08:28:07.492 HelloCordova[5089:70b] setting movie path: 
+2014-05-31 08:28:07.493 HelloCordova[5089:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=SISTAR19_Ma_Boy_mirrored_Dance_Practice_Eng_Sub_ovVfLancwys.mp3
+2014-05-31 08:29:07.108 HelloCordova[5323:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-31 08:29:07.118 HelloCordova[5323:70b] Unlimited access to network resources
+2014-05-31 08:29:07.139 HelloCordova[5323:70b] [CDVTimer][keyboard] 0.088036ms
+2014-05-31 08:29:07.140 HelloCordova[5323:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-05-31 08:29:07.140 HelloCordova[5323:70b] [CDVTimer][statusbar] 0.473022ms
+2014-05-31 08:29:07.141 HelloCordova[5323:70b] [CDVTimer][TotalPluginStartup] 1.493990ms
+2014-05-31 08:29:07.264 HelloCordova[5323:70b] Resetting plugins due to page load.
+2014-05-31 08:29:07.472 HelloCordova[5323:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-05-31 08:29:07.582 HelloCordova[5323:70b] setting movie path: 
+2014-05-31 08:29:07.655 HelloCordova[5323:70b] setting movie path: 
+2014-05-31 08:29:09.816 HelloCordova[5323:70b] {"title":"Hot","id":2,"$$hashKey":"00F"}
+2014-05-31 08:29:10.896 HelloCordova[5323:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Who_Says-Selena_Gomez-_Megan_Nicole_and_Tiffany_Alvord_cover_-zg9xS87wgU.mp3
+2014-05-31 08:29:10.899 HelloCordova[5323:70b] setting movie path: 
+2014-05-31 08:29:10.900 HelloCordova[5323:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Who_Says-Selena_Gomez-_Megan_Nicole_and_Tiffany_Alvord_cover_-zg9xS87wgU.mp3
+2014-05-31 08:29:11.119 HelloCordova[5323:4513] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+Terminating in response to SpringBoard's termination.
+2014-06-01 17:36:31.449 HelloCordova[6903:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-01 17:36:31.488 HelloCordova[6903:70b] Unlimited access to network resources
+2014-06-01 17:36:31.625 HelloCordova[6903:70b] [CDVTimer][keyboard] 0.086963ms
+2014-06-01 17:36:31.625 HelloCordova[6903:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-01 17:36:31.626 HelloCordova[6903:70b] [CDVTimer][statusbar] 0.595987ms
+2014-06-01 17:36:31.626 HelloCordova[6903:70b] [CDVTimer][TotalPluginStartup] 1.655996ms
+2014-06-01 17:36:31.815 HelloCordova[6903:70b] Resetting plugins due to page load.
+2014-06-01 17:36:32.137 HelloCordova[6903:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-06-01 17:36:32.294 HelloCordova[6903:70b] setting movie path: 
+2014-06-01 17:36:32.377 HelloCordova[6903:70b] setting movie path: 
+Jun  1 17:36:32 kelvinhos-MacBook-Pro.local HelloCordova[6903] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  1 17:36:32 kelvinhos-MacBook-Pro.local HelloCordova[6903] <Error>: CGImageCreate: invalid image size: 0 x 0.
+2014-06-01 17:36:38.059 HelloCordova[6903:70b] {"title":"Hot","id":2,"$$hashKey":"00G"}
+2014-06-01 17:36:40.191 HelloCordova[6903:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Who_Says-Selena_Gomez-_Megan_Nicole_and_Tiffany_Alvord_cover_-zg9xS87wgU.mp3
+2014-06-01 17:36:40.203 HelloCordova[6903:70b] setting movie path: 
+2014-06-01 17:36:40.206 HelloCordova[6903:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=Who_Says-Selena_Gomez-_Megan_Nicole_and_Tiffany_Alvord_cover_-zg9xS87wgU.mp3
+2014-06-01 17:36:40.906 HelloCordova[6903:5403] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-01 17:37:47.185 HelloCordova[6903:70b] Took background task assertion (15) for playback stall
+2014-06-01 18:56:40.479 HelloCordova[7552:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-01 18:56:40.511 HelloCordova[7552:70b] Unlimited access to network resources
+2014-06-01 18:56:40.721 HelloCordova[7552:70b] [CDVTimer][keyboard] 0.105977ms
+2014-06-01 18:56:40.722 HelloCordova[7552:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-01 18:56:40.722 HelloCordova[7552:70b] [CDVTimer][statusbar] 0.486970ms
+2014-06-01 18:56:40.723 HelloCordova[7552:70b] [CDVTimer][TotalPluginStartup] 1.673043ms
+2014-06-01 18:56:40.984 HelloCordova[7552:70b] Resetting plugins due to page load.
+2014-06-01 18:56:41.350 HelloCordova[7552:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-06-01 18:56:41.451 HelloCordova[7552:70b] setting movie path: 
+2014-06-01 18:56:41.524 HelloCordova[7552:70b] setting movie path: 
+2014-06-01 18:56:43.094 HelloCordova[7552:70b] {"title":"Latest","id":1,"$$hashKey":"00F"}
+2014-06-01 18:56:44.177 HelloCordova[7552:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=_-__xHRq4ZQZ408.mp3
+2014-06-01 18:56:44.184 HelloCordova[7552:70b] setting movie path: 
+2014-06-01 18:56:44.185 HelloCordova[7552:70b] setting movie path: http://share-find.com/ytmp3/toMp3.php?mp3=_-__xHRq4ZQZ408.mp3
+2014-06-01 18:56:45.432 HelloCordova[7552:250b] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-01 18:57:43.091 HelloCordova[7731:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-01 18:57:43.099 HelloCordova[7731:70b] Unlimited access to network resources
+2014-06-01 18:57:43.115 HelloCordova[7731:70b] [CDVTimer][keyboard] 0.054002ms
+2014-06-01 18:57:43.115 HelloCordova[7731:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-01 18:57:43.115 HelloCordova[7731:70b] [CDVTimer][statusbar] 0.379980ms
+2014-06-01 18:57:43.116 HelloCordova[7731:70b] [CDVTimer][TotalPluginStartup] 1.201987ms
+2014-06-01 18:57:43.154 HelloCordova[7731:70b] Resetting plugins due to page load.
+2014-06-01 18:57:43.255 HelloCordova[7731:70b] Finished load of: file:///Users/kho/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/58DF1C62-06FF-40DE-B1CA-FA313E228506/HelloCordova.app/www/index.html#/app/playlists
+2014-06-01 18:57:43.294 HelloCordova[7731:70b] setting movie path: 
+2014-06-01 18:57:43.335 HelloCordova[7731:70b] setting movie path: 

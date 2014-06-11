@@ -1,0 +1,100 @@
+<ion-view title="Player">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+
+    <ion-tabs class="tabs-icon-only tabs-positive">
+
+        <ion-tab title="Music" icon-on="icon ion-ipod" icon-off="icon ion-ipod">
+
+            <ion-content has-header="true">
+
+                <div class="list card" ng-hide="!audioPlaylist.length">
+                    <div class="item item-avatar positive" >
+                        <h2> <i class="icon ion-music-note"></i> {{audioPlaylist[mediaPlayer.currentTrack-1].title}}</h2>
+                    </div>
+
+                    <div class="item item-image">
+                        <ion-slide-box on-slide-changed="slideHasChanged($index)" >
+                            <ion-slide ng-repeat="img in imgList">
+                                <div class="box"><img ng-src="{{audioPlaylist[mediaPlayer.currentTrack-1].img_base}}{{img.file_name}}"></div>
+                            </ion-slide>
+                        </ion-slide-box>
+                    </div>
+
+                    <div class="item range range-positive row responsive-sm" ng-click="mediaPlayer.seek(mediaPlayer.duration * seekPercentage($event))">
+                        <input class="duration" type="range" name="duration" min="0" max="100" value="0" ng-style="{ 'padding-left': mediaPlayer.currentTime*100/mediaPlayer.duration + '%' }" ng-model="inputDuration" ng-change="mediaPlayer.seek(mediaPlayer.duration * inputDuration /100)">
+                        <div class="time" ng-show="mediaPlayer.formatTime">
+                            <span ng-bind="mediaPlayer.formatTime">00:00</span><b>/</b><span ng-bind="mediaPlayer.formatDuration">00:00</span>
+                        </div>
+                    </div>
+
+                    <div class="item row">
+                        <a class="btn" ng-click="mediaPlayer.prev()">
+                            <i class="icon ion-ios7-skipbackward"></i>
+                        </a>
+                        <a class="btn" ng-click="mediaPlayer.playPause()">
+                            <i class="" ng-class="{ 'ion-pause': mediaPlayer.playing, 'ion-play': !mediaPlayer.playing }"></i>
+                        </a>
+                        <a class="btn" ng-click="mediaPlayer.next()">
+                            <i class="icon ion-ios7-skipforward"></i>
+                        </a>
+                        <a class="btn" ng-click="toggleLoop()">
+                            <span ng-class="{'repeat-one': loop== 1}"><i class="fa fa-repeat" ng-class="{ 'fa-spin balanced': loop== 1, 'fa-spin royal' : loop ==2}"></i> <i class="fa fa-th-list royal" ng-hide="loop!=2"></i></span>
+                        </a>
+
+                        <div class="col col-60">
+                            <div class="range" style="position: relative;">
+                                <i class="icon ion-volume-low" style="left:auto;"></i>
+                                <input type="range" name="volume" ng-model="inputVolume" ng-change="mediaPlayer.setVolume(inputVolume/100);">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item row">
+                        <a target="_blank" class="assertive btn " href="http://www.facebook.com/sharer.php?u={{playing_mp3.url_m}}&t={{playing_mp3.mp3.name}}"><i class="fa fa-facebook-square">  </i></a>
+                        <a target="_blank" class="assertive btn " href="http://twitter.com/share?text=I%20like%20this%20song:%20{{playing_mp3.mp3.name}}%20%23yourtubebox&url={{playing_mp3.url_m}}" > <i class="fa fa-twitter-square"> </i></a>
+                        <a href="{{audioPlaylist[mediaPlayer.currentTrack-1].src}}" class=" assertive btn"> <i class="fa fa-download">  </i> </a>
+                        <a target="_blank" class="assertive btn" href="http://youtube.com/watch?v={{playing_mp3.vid}}" ><i class="fa fa-youtube-play"> </i> </a>
+                    </div>
+                </div>
+                <div  ng-show="!audioPlaylist.length">
+                    <div class="row responsive-sm">
+                        <div class="col"></div>
+                        <div class="col col-50">
+                            <a href="#/app/playlists"> <h2><i class="ion-information-circled"> Add a song! </i> </h2></a>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </ion-content>
+        </ion-tab>
+        <ion-tab title="MyList" icon-on="icon ion-clipboard" icon-off="icon ion-clipboard">
+            <ion-content has-header="true">
+            <div class="list">
+                <a class="item item-thumbnail-left" href="#/app/player" ng-repeat="song in audioPlaylist" ng-click="mediaPlayer.playPause($index)" ng-class="{ active: mediaPlayer.playing && mediaPlayer.currentTrack-1 === $index }">
+                    <img class="playlist-img img-rounded" ng-src="{{ song.img }}"/>
+                    <h2>{{ $index+1 }} - {{song.title}}</h2>
+                </a>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col col-50">
+                    <a href="#/app/playlists"> <h2><i class="ion-information-circled"> Add more song! </i> </h2></a>
+                </div>
+                <div class="col"></div>
+            </div>
+            </ion-content>
+        </ion-tab>
+<!--
+    <ion-tab title="Settings" icon-on="icon ion-ios7-gear" icon-off="icon ion-ios7-gear-outline">
+        <ion-content has-header="true">
+            <h1>Settings</h1>
+        </ion-content>
+    </ion-tab>
+-->
+    </ion-tabs>
+
+
+</ion-view>

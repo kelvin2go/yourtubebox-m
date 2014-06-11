@@ -1,0 +1,16 @@
+/* Empty. Add your own CSS if you like */
+.repeat-one::after{
+    content:" 1";
+}
+
+.item .btn {
+    padding: 20px;
+}
+
+.item.range .duration{
+    width: 100%;
+
+}
+.item.range > * {
+    float: left;
+}

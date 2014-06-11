@@ -1,0 +1,21 @@
+<ion-view title="YourtubeBox">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content class="has-header">
+
+        <form name="yourtubeBoxForm"class="form" role="form">
+
+            <label class="item item-input">
+                <span class="input-label"><i class="fa fa-files-o"></i> Youtube Link</span>
+                <input ng-model="yourtubebox.youtubeurl" type="url" id="url-input" placeholder="https://www.youtube.com/watch?v=yoJwQFnmgEM " required>
+            </label>
+
+            <button class="button button-calm button-block" ng-show="yourtubeBoxForm.$valid" ng-click="saveMp3()" ng-disabled="yourtubeBoxForm.$invalid">
+                <i class="ion-loading-b" ng-show="yourtubebox.processing"></i>
+                <i class="ion-ios7-cloud-download" > convert MP3 </i>
+            </button>
+        </form>
+    </ion-content>
+</ion-view>

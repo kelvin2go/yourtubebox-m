@@ -1,0 +1,21 @@
+<ion-view title="Playlist">
+    <ion-nav-buttons side="left">
+        <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+
+    <ion-content class="has-header">
+        <ion-refresher
+                pulling-text="Pull to refresh..."
+                on-refresh="doRefresh()">
+        </ion-refresher>
+
+        <h1 class=" positive">{{curretPlaylist.title}}</h1>
+
+        <div class="list">
+          <a class="item item-thumbnail-left" href="#/app/player" ng-repeat="item in viewList" ng-click="clickToPlay('http://share-find.com/ytmp3/toMp3.php?mp3='+item.mp3.name, item.img, item.title, item.vid)" >
+              <img ng-src="{{item.img}}" /> <h2>{{item.title}}</h2>
+          </a>
+        </div>
+
+    </ion-content>
+</ion-view>
