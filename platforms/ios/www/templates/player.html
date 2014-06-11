@@ -22,24 +22,32 @@
                         </ion-slide-box>
                     </div>
 
-                    <div class="item range range-positive row responsive-sm" ng-click="mediaPlayer.seek(mediaPlayer.duration * seekPercentage($event))">
-                        <input class="duration" type="range" name="duration" min="0" max="100" value="0" ng-style="{ 'padding-left': mediaPlayer.currentTime*100/mediaPlayer.duration + '%' }" ng-model="inputDuration" ng-change="mediaPlayer.seek(mediaPlayer.duration * inputDuration /100)">
+                    <div class="item range range-positive row" ng-click="mediaPlayer.seek(mediaPlayer.duration * seekPercentage($event))">
+                        <input class="duration" type="range" name="duration" min="0" max="100" value="0" style="padding-left:1px" ng-style="{ 'padding-left': mediaPlayer.currentTime*100/mediaPlayer.duration *0.81+ '%' }" ng-model="inputDuration" ng-change="mediaPlayer.seek(mediaPlayer.duration * inputDuration /100)">
                         <div class="time" ng-show="mediaPlayer.formatTime">
                             <span ng-bind="mediaPlayer.formatTime">00:00</span><b>/</b><span ng-bind="mediaPlayer.formatDuration">00:00</span>
                         </div>
                     </div>
 
+                    <!--<div class="item row progress  progress-striped active" ng-click="mediaPlayer.seek(mediaPlayer.duration * seekPercentage($event))">
+                        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" ng-style="{width: mediaPlayer.currentTime*100/mediaPlayer.duration + '%'}" >
+                            <span class="ng-binding" ng-bind="mediaPlayer.formatTime">00:00</span><b>/</b><span ng-bind="mediaPlayer.formatDuration">00:00</span>
+                        </div>
+                        <div class="progress-bar-grey active bar-stack" role="progressbar" aria-valuemin="0" aria-valuemax="100" ng-style="{ width: mediaPlayer.loadPercent+ '%'}"></div>
+
+                    </div>-->
+
                     <div class="item row">
-                        <a class="btn" ng-click="mediaPlayer.prev()">
+                        <a class="fbtn" ng-click="mediaPlayer.prev()">
                             <i class="icon ion-ios7-skipbackward"></i>
                         </a>
-                        <a class="btn" ng-click="mediaPlayer.playPause()">
+                        <a class="fbtn" ng-click="mediaPlayer.playPause()">
                             <i class="" ng-class="{ 'ion-pause': mediaPlayer.playing, 'ion-play': !mediaPlayer.playing }"></i>
                         </a>
-                        <a class="btn" ng-click="mediaPlayer.next()">
+                        <a class="fbtn" ng-click="mediaPlayer.next()">
                             <i class="icon ion-ios7-skipforward"></i>
                         </a>
-                        <a class="btn" ng-click="toggleLoop()">
+                        <a class="fbtn" ng-click="toggleLoop()">
                             <span ng-class="{'repeat-one': loop== 1}"><i class="fa fa-repeat" ng-class="{ 'fa-spin balanced': loop== 1, 'fa-spin royal' : loop ==2}"></i> <i class="fa fa-th-list royal" ng-hide="loop!=2"></i></span>
                         </a>
 
@@ -53,10 +61,10 @@
 
 
                     <div class="item row">
-                        <a target="_blank" class="assertive btn " href="http://www.facebook.com/sharer.php?u={{playing_mp3.url_m}}&t={{playing_mp3.mp3.name}}"><i class="fa fa-facebook-square">  </i></a>
-                        <a target="_blank" class="assertive btn " href="http://twitter.com/share?text=I%20like%20this%20song:%20{{playing_mp3.mp3.name}}%20%23yourtubebox&url={{playing_mp3.url_m}}" > <i class="fa fa-twitter-square"> </i></a>
-                        <a href="{{audioPlaylist[mediaPlayer.currentTrack-1].src}}" class=" assertive btn"> <i class="fa fa-download">  </i> </a>
-                        <a target="_blank" class="assertive btn" href="http://youtube.com/watch?v={{playing_mp3.vid}}" ><i class="fa fa-youtube-play"> </i> </a>
+                        <a target="_blank" class="assertive fbtn " href="http://www.facebook.com/sharer.php?u={{playing_mp3.url_m}}&t={{playing_mp3.mp3.name}}"><i class="fa fa-facebook-square">  </i></a>
+                        <a target="_blank" class="assertive fbtn " href="http://twitter.com/share?text=I%20like%20this%20song:%20{{playing_mp3.mp3.name}}%20%23yourtubebox&url={{playing_mp3.url_m}}" > <i class="fa fa-twitter-square"> </i></a>
+                        <a href="{{audioPlaylist[mediaPlayer.currentTrack-1].src}}" class=" assertive fbtn"> <i class="fa fa-download">  </i> </a>
+                        <a target="_blank" class="assertive fbtn" href="http://youtube.com/watch?v={{playing_mp3.vid}}" ><i class="fa fa-youtube-play"> </i> </a>
                     </div>
                 </div>
                 <div  ng-show="!audioPlaylist.length">

@@ -3,14 +3,19 @@
     content:" 1";
 }
 
-.item .btn {
-    padding: 20px;
+.item .fbtn {
+    padding: 20px 10px;
 }
 
 .item.range .duration{
-    width: 100%;
-
+    width: 81%;
+    padding-left: 1px;
 }
+
 .item.range > * {
     float: left;
+}
+
+.progress .progress-bar-grey{
+    background-color: #D3DCED;
 }

@@ -85,6 +85,15 @@ angular.module('starter', ['ionic', 'mediaPlayer', 'starter.controllers', 'angul
           controller: 'PlaylistCtrl'
         }
       }
+    })
+    .state('app.vsingle', {
+      url: "/V/:VID",
+      views: {
+          'menuContent' :{
+              templateUrl: "templates/player.html",
+              controller: 'PlayerCtrl'
+          }
+      }
     });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');

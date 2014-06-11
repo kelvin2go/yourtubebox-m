@@ -12,7 +12,7 @@
                 <input ng-model="yourtubebox.youtubeurl" type="url" id="url-input" placeholder="https://www.youtube.com/watch?v=yoJwQFnmgEM " required>
             </label>
 
-            <button class="button button-calm button-block" ng-show="yourtubeBoxForm.$valid" ng-click="saveMp3()" ng-disabled="yourtubeBoxForm.$invalid">
+            <button class="button button-calm button-block" ng-show="yourtubeBoxForm.$valid" ng-click="saveMp3(8000)" ng-disabled="yourtubeBoxForm.$invalid">
                 <i class="ion-loading-b" ng-show="yourtubebox.processing"></i>
                 <i class="ion-ios7-cloud-download" > convert MP3 </i>
             </button>

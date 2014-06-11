@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('AppCtrl', function($scope) {
+.controller('AppCtrl', function($scope, $http,$timeout, $analytics) {
     $scope.audioPlaylist = [];
     $scope.playing_mp3 = {};
     $scope.playlists = [
@@ -37,29 +37,8 @@ angular.module('starter.controllers', [])
         );
     };
 
-})
 
-.controller('PlaylistsCtrl', function($scope ) {
-
-
-})
-.controller('PlayerCtrl', function($scope, $timeout ) {
-
-    $scope.toggleLoop = function (){
-        $timeout(function() {
-            if ( $scope.loop === 0 ){
-                $scope.loop = 1;
-            } else if ( $scope.loop === 1){
-                $scope.loop = 2;
-            } else {
-                $scope.loop = 0;
-            }
-        }),1000;
-    }
-
-})
-.controller('YourtubeboxCtrl', function($scope , $http, $timeout, $analytics) {
-    $scope.saveMp3 = function() {
+    $scope.saveMp3 = function( timeopt ) {
         $analytics.eventTrack('eventName', {
             category: 'youtube-link', action:'inputed' ,label: $scope.yourtubebox.youtubeurl
         });
@@ -72,7 +51,6 @@ angular.module('starter.controllers', [])
             crossDomain:true
         }).success ( function(data) {
             $scope.yourtubebox.success = true;
-            $scope.yourtubebox.processing = false;
             $scope.yourtubebox.mp3_url = 'http://share-find.com/ytmp3/toMp3.php?mp3='+encodeURIComponent(data.mp3.name);
             $scope.yourtubebox.mp3_url_s = '//share-find.com/ytmp3/mp3/'+encodeURIComponent(data.mp3.name);
             $scope.yourtubebox.mp3_name = data.title+".mp3";
@@ -82,7 +60,6 @@ angular.module('starter.controllers', [])
             });
 
             $timeout(function() {
-
                 $scope.yourtubebox.processing = false;
 
                 $scope.playing_mp3 = $scope.mp3;
@@ -101,14 +78,47 @@ angular.module('starter.controllers', [])
                 });
 
                 window.location.href = "#/app/player";
-            }, 20000);
+            }, timeopt);
 
 
         }).error( function ( data) {
             console.log(data);
             $scope.yourtubebox.processing = false;
         });
+    };
+
+})
+
+.controller('PlaylistsCtrl', function($scope ) {
+
+
+})
+.controller('PlayerCtrl', function($scope, $timeout,$stateParams ) {
+
+    $scope.toggleLoop = function (){
+        $timeout(function() {
+            if ( $scope.loop === 0 ){
+                $scope.loop = 1;
+            } else if ( $scope.loop === 1){
+                $scope.loop = 2;
+            } else {
+                $scope.loop = 0;
+            }
+        }),1000;
     }
+
+    if ( $stateParams.VID ){
+        $scope.yourtubebox.youtubeurl = 'http://www.youtube.com/watch?v='+$stateParams.VID;
+        $scope.saveMp3(3000);
+    }
+    if ( $stateParams.youTubeURL ){
+        $scope.yourtubebox.youtubeurl = $stateParams.youTubeURL;
+        $scope.saveMp3(3000);
+    }
+
+})
+.controller('YourtubeboxCtrl', function($scope , $http, $timeout, $analytics) {
+
 
 })
 .controller('PlaylistCtrl', function($scope, $stateParams, $http, $filter) {
