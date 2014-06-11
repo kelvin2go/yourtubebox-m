@@ -1,3 +1,9 @@
+DEMO
+=====================
+Ionic: http://yourtubebox.servemp3.com/
+Desktop: http://share-find.com/yourtubebox/#/
+Chrome ext: http://goo.gl/ZWrPdV
+
 Ionic App Base
 =====================
 
